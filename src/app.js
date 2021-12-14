@@ -91,6 +91,7 @@ app.post("/forgotPwdEmail", async (req, res) => {
         service: "gmail",
         auth: {
           user: "nearbyapp9@gmail.com",
+          type: "OAuth2",
           pass: "PlacesNearBy",
         },
       });
